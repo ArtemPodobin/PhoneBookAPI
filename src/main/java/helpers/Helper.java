@@ -13,7 +13,7 @@ public interface Helper {
     Gson gson = new Gson();
     OkHttpClient client = new OkHttpClient();
 
-    String TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoiYWJjQGRlZi5jb20iLCJpc3MiOiJSZWd1bGFpdCIsImV4cCI6MTY5MDkwNTQ4MywiaWF0IjoxNjkwMzA1NDgzfQ.rlQkViNomifJpWb8Vdu5Y6Hhv_aci8zfSYFyPgiGCCs";
+    String TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoiYm9uam92aWUyQG1haWwuY29tIiwiaXNzIjoiUmVndWxhaXQiLCJleHAiOjE2OTEzNDExMzAsImlhdCI6MTY5MDc0MTEzMH0.O-1lLBBvk95euXHhhdmkNLs_pdUjaNJhNInEbujN4-A";
 
     String BASE_URI = "https://contactapp-telran-backend.herokuapp.com";
     String PATH = "v1";
